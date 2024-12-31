@@ -2,8 +2,13 @@
   "name": "oh-my-cheese",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx, ts, tsx, css}\""
+  },
   "devDependencies": {
-    "bun-types": "latest"
+    "@vitejs/plugin-react": "4.3.1",
+    "bun-types": "latest",
+    "vite": "5.4.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
